@@ -95,7 +95,8 @@ img {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    line-height: 1;
+    font-size: 26px;
+    line-height: 1.19;
     color: var(--color-black);
 }
 
@@ -149,9 +150,11 @@ img {
 
 .contacts .contacts-link {
     font-size: 14px;
+    font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-primary)
+
 }
 
 .contacts-link:hover,
@@ -192,6 +195,9 @@ img {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+
+    width: 216px;
+    height: 50px;
 }
 
 /* -----Секція advantages-------*/
@@ -207,9 +213,11 @@ img {
      font-weight: 700;
      font-size: 14px;
      line-height: 1.14;
+
      color: var(--color-grey);
      text-transform: uppercase;
      margin: 0 auto;
+     margin-bottom: 10px;
 }
 
 .advantages .advantages-note {
@@ -227,10 +235,13 @@ img {
 -------Секція Duties------- */
 .duties {
     margin: 0 auto;
+    padding: 94px 0;
 }
 
 .duties-title {
     margin: 0 0 50px 0;
+
+    color: var(--color-grey);
 } 
 
 .duties .duties-list {
@@ -239,6 +250,11 @@ img {
 }
 
 /* -----Секція Team --------*/
+
+.team {
+    padding: 94px 0;
+}
+
 .container-team {
     padding: 94px 0;
     margin: 0 auto;
@@ -251,7 +267,9 @@ img {
 }
 
 .team-title {
+    margin-top: 0;
     margin-bottom: 50px;
+    color: var(--color-grey);
 }
 
 .team .team-name {
@@ -260,9 +278,12 @@ img {
     line-height: 1.18;
     text-align: center;
 }
+
 .team .team-role {
     font-size: 16px;
     text-align: center;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .team-description {
@@ -290,6 +311,7 @@ img {
     font-size: 14px;
     color: var(--color-white);
     line-height: 1.46;
+    letter-spacing: 0.03em;
 }
 
 .address-details {
@@ -315,6 +337,16 @@ img {
 
 /* ----Секція Portfolio ------ */
 
+.portfolio {
+    padding: 94px 0;
+}
+
+.header-portfolio {
+    border-color: transparent;
+    border-bottom-color: #ECECEC;
+    border-style:solid;
+}
+
 .container-projects {
     padding: 94px 0;
 }
@@ -329,7 +361,14 @@ img {
 .button-portfolio {
     border: 0;
     background-color: var(--background-second);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.62;
+    padding: 6px 22px;
+
 }
+
 
 .button-portfolio:focus,
 .button-portfolio:hover {
@@ -359,10 +398,13 @@ img {
 
 .projects-title {
     color: var(--color-grey);
+
     font-weight: 700;
     font-size:18px;
     line-height: 1.71;
     letter-spacing: 00.06em;
+
+    margin-bottom: 4px;
 }
 
 .projects-about {
@@ -375,4 +417,6 @@ img {
    border: 1px;
    border-style:solid;
    border-color: #EEEEEE;
+
+   margin: 0 auto;
 }
