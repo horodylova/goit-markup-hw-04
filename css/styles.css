@@ -95,7 +95,7 @@ img {
 /* -----Хедер --- */
 
 .header {
-    border-color: transparent;
+    /* border-color: transparent; */
     border-bottom-color: #ECECEC;
     border-style:solid;
 }
@@ -223,7 +223,7 @@ img {
     display: flex;
     gap: 30px;
     margin: 0 auto;
-    padding: 94px 0;
+    padding: 94px 0 0 0;
 }
 
 .advantages .advantages-title {
@@ -295,7 +295,7 @@ img {
 .team-title {
     margin-top: 0;
     margin-bottom: 50px;
-    color: var(--color-grey);
+    color: #212121;
 }
 
 .team .team-name {
@@ -305,6 +305,8 @@ img {
     text-align: center;
 
     margin-bottom: 9.95px;
+
+    color: var(--color-grey);
 }
 
 .team .team-role {
@@ -322,7 +324,7 @@ img {
     border-style:solid;
     border-color: #EEEEEE;
 
-    padding: 29.86px 0 15.93px 0;
+    padding: 30px 0;
 }
 
 .footer {
@@ -352,7 +354,10 @@ img {
 
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
 
+.address-mail {
+    margin-bottom: 9px;
 }
 
 /* .buttons-list {
@@ -375,10 +380,6 @@ img {
 /* ----Секція Portfolio ------ */
 
 .portfolio {
-    padding: 94px 0;
-}
-
-.container-projects {
     padding: 94px 0;
 }
 
@@ -431,7 +432,7 @@ img {
     font-weight: 700;
     font-size:18px;
     line-height: 1.71;
-    letter-spacing: 00.06em;
+    letter-spacing: 0.06em;
 
     margin: 0 auto;
     margin-bottom: 4px;
@@ -439,19 +440,18 @@ img {
 
 .projects-about {
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.86;
+    letter-spacing: 0.03em;
     margin: 0;
     padding: 0;
+    color: var(--color-primary);
 }
 
 .projects .projects-description {
    padding: 20px 24px;
    margin: 0 auto;
 
-   border-color: transparent;
-   border: 1px;
    border-style: solid;
-   border-right-color: #EEEEEE;
-   border-left-color: #EEEEEE;
-   border-bottom-color: #EEEEEE;
+   border: solid 1px #EEEEEE;
+   border-top: none;
 }
