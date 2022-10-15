@@ -180,7 +180,9 @@ img {
     margin-left: auto;
     margin-right: auto;
 
-    background-image: url(../img/Img\ \(1\).svg);
+    border-color: var(--color-black);
+
+    background-image: url(../img/Img\ Overlay\ \(1\).svg), url(../img/Img\ \(1\).svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -233,6 +235,16 @@ img {
     gap: 30px;
     margin: 0 auto;
     padding: 94px 0 0 0;
+}
+
+.advantages-title::before {
+    content: "";
+    background-color: rgba(245, 244, 250, 1);
+    height: 120px;
+    width: 270px;
+    display: block;
+    margin-bottom: 30px;
+    gap: 30px;
 }
 
 .advantages .advantages-title {
