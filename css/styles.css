@@ -348,10 +348,34 @@ img {
     padding: 30px 0;
 }
 
+/* ---Секція Клієнти---- */
+
+.clients-title {
+    color: var(--color-grey);
+
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client-logo {
+    gap: 30px;
+    height: 92px;
+    width: 170px;
+    border: 1px solid #AFB1B8;
+
+}
+
+/* -----Секція Футер---- */
+
 .footer {
     background-color: var(--background-elements);
 
     padding: 60px 0;
+    display: block;
 }
 
 .footer-logo {
@@ -381,8 +405,24 @@ img {
     margin-bottom: 9px;
 }
 
-/* .buttons-list {
-} */
+.footer-social {
+    display: block;
+}
+
+.call-to-action {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 00.03em;
+    color: var(--color-white);
+
+}
+
+
+/* ----Секція Portfolio ------ */
+
+
 .button {
     font-weight: 500;
     font-size: 16px;
@@ -397,8 +437,6 @@ img {
 .button:focus {
     color: var(--color-blue);
 }
-
-/* ----Секція Portfolio ------ */
 
 .portfolio {
     padding: 94px 0;
