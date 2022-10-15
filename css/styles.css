@@ -242,9 +242,13 @@ img {
     background-color: rgba(245, 244, 250, 1);
     height: 120px;
     width: 270px;
+    
     display: block;
     margin-bottom: 30px;
     gap: 30px;
+    margin-top: 0;
+
+    border-radius: 4px;
 }
 
 .advantages .advantages-title {
@@ -344,15 +348,21 @@ img {
     border: 1px;
     border-style:solid;
     border-color: #EEEEEE;
+    border-radius: 4px;
 
     padding: 30px 0;
 }
 
 /* ---Секція Клієнти---- */
 
+.container-clients {
+    padding: 94px 0;
+}
+
 .clients-title {
     color: var(--color-grey);
-
+    
+    margin-top: 0;
     margin-bottom: 50px;
 }
 
@@ -366,10 +376,18 @@ img {
     height: 92px;
     width: 170px;
     border: 1px solid #AFB1B8;
+    border-radius: 4px;
 
 }
 
 /* -----Секція Футер---- */
+
+.footer-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+
+}
 
 .footer {
     background-color: var(--background-elements);
@@ -409,6 +427,10 @@ img {
     display: block;
 }
 
+.footer-list {
+    display: flex;
+}
+
 .call-to-action {
     text-transform: uppercase;
     font-weight: 700;
@@ -419,6 +441,19 @@ img {
 
 }
 
+.media {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    color: #AFB1B8;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
 
 /* ----Секція Portfolio ------ */
 
