@@ -262,7 +262,7 @@ img {
 
     border-radius: 4px;
 
-    background-size: contain;
+    background-size:auto;
     background-repeat: no-repeat;
     background-position: center;
 }
