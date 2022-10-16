@@ -92,6 +92,18 @@ address {
 img {
     display: block;
 }
+
+.media {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    gap: 10px;
+}
 /* -----Хедер --- */
 
 .header {
@@ -237,7 +249,7 @@ img {
     padding: 94px 0 0 0;
 }
 
-.advantages-title::before {
+.advantages-list::before {
     content: "";
     background-color: rgba(245, 244, 250, 1);
     height: 120px;
@@ -249,7 +261,31 @@ img {
     margin-top: 0;
 
     border-radius: 4px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+.antenna::before {
+    background-image: url(../img/antenna\ 1\ \(1\).svg);
+
+}
+
+.clock::before {
+    background-image: url(../img/clock\ 1\ \(1\).svg);
+
+}
+
+.diagram::before {
+    background-image: url(../img/diagram\ 1\ \(1\).svg);
+
+}
+
+.astronaut::before {
+    background-image: url(../img/astronaut\ 1\ \(1\).svg);
+}
+
 
 .advantages .advantages-title {
      font-weight: 700;
@@ -353,6 +389,11 @@ img {
     padding: 30px 0;
 }
 
+.team-media-list {
+    display: flex;
+}
+
+
 /* ---Секція Клієнти---- */
 
 .container-clients {
@@ -384,7 +425,8 @@ img {
 
 .footer-group {
     display: flex;
-    justify-content: flex-start;
+    padding: 60px 880px 60px 0;
+    margin: 0 auto;
     gap: 70px;
 
 }
@@ -429,6 +471,8 @@ img {
 
 .footer-list {
     display: flex;
+    margin-top: 20px;
+    gap: 10px;
 }
 
 .call-to-action {
@@ -441,16 +485,8 @@ img {
 
 }
 
-.media {
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 44px;
-    height: 44px;
-
-    color: #AFB1B8;
+.footer-icon {
+    color: var(--color-white);
     background-color: rgba(255, 255, 255, 0.1);
 
 }
