@@ -214,6 +214,10 @@ img {
     display: flex;
 }
 
+.sprite-contact {
+    margin-right: 10px;
+}
+
 /* -------Секція хіро------*/
 
 .hero {
